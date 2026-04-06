@@ -11,8 +11,10 @@ def createTXT():
 def main():
     print("привет, хочешь ли создать текстовый файл?")
     choice = input("y/n")
-    
+
     if choice == "y":
         createTXT()
     else:
         return
+    
+main()
